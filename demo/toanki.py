@@ -75,7 +75,7 @@ class qa():
 
 
 if __name__ == '__main__':
-    with open('测试方法和流程拆分出的内容.html', 'r', encoding='utf-8') as f:
+    with open('./html/测试方法和流程拆分出的内容.html', 'r', encoding='utf-8') as f:
         html_data = f.read()
     etree = html.etree
 
