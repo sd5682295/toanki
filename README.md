@@ -6,19 +6,20 @@
 # 说明
 
 现在有3个demo
-
 demo_prototype是最早的，通过jupyter运行
-
 使用方法：
-
-> 1. 先从幕布导出html文件放在项目根目录下
-> 2. 使用jupyter打开toanki.ipynb，第一行设置输入的html文件地址，最后一行设置输出的txt文件地址，从上往下运行，即可完成转换
+> 1) 先从幕布导出html文件放在demo_prototype根目录下
+> 2) 使用jupyter打开toanki.ipynb，第一行设置输入的html文件地址，最后一行设置输出的txt文件地址，从上往下运行，即可完成转换
 
 demo 是将demo_prototype文件转换成.py文件,用法和demo_prototype一致
+使用方法：
+> 1) 先从幕布导出html文件放在demo根目录下
+> 2) 使用编辑器打开toanki.py，第一行设置输入的html文件地址，最后一行设置输出的txt文件地址，保存后运行toanki.py即可
 
-demo2  是最新> 使用方法：
-
-先从幕布导出html文件放在html目录下，运行main.py,输入anki的txt文件出现在csv目录下
+demo2  是最新版分离了进出端
+使用方法：
+> 1) 先从幕布导出html文件放在demo2根目录下的html目录中
+> 2) 运行main.py,新生产的文件txt文件出现在csv目录中
 
 
 
