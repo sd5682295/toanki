@@ -8,8 +8,11 @@
 现在有3个demo
 
 demo_prototype是最早的，通过jupyter运行
-1. 先从幕布导出html文件放在项目根目录下
-2. 使用jupyter打开toanki.ipynb，第一行设置输入的html文件地址，最后一行设置输出的txt文件地址，从上往下运行，即可完成转换
+
+使用方法：
+
+> 1. 先从幕布导出html文件放在项目根目录下
+> 2. 使用jupyter打开toanki.ipynb，第一行设置输入的html文件地址，最后一行设置输出的txt文件地址，从上往下运行，即可完成转换
 
 demo 是将demo_prototype文件转换成.py文件,用法和demo_prototype一致
 
@@ -41,7 +44,7 @@ python 3.7
 
 [MIT](https://opensource.org/licenses/MIT)
 Copyright (c) 2020 sd5682295
-
+------------------------------------------------------------------
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
