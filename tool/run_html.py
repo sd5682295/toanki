@@ -1,6 +1,6 @@
 from lxml import html
 
-from demo2.tool.qa import qa
+from tool.qa import qa
 
 
 class run_html(object):
