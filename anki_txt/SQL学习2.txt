@@ -1,0 +1,50 @@
+<p>[SQL学习2知识点]</p> <p>数据库基础语句</p>	[SQL学习2知识点] <p>查看当前存在全部数据库</p><p>创建数据库</p><p>查看创建好的数据库</p><p>选择数据库</p><p>删除数据库</p>
+<p>[SQL学习2知识点][数据库基础语句]</p> <p>查看当前存在全部数据库</p>	[SQL学习2知识点][数据库基础语句] <p>show databases;</p>
+<p>[SQL学习2知识点][数据库基础语句]</p> <p>创建数据库</p>	[SQL学习2知识点][数据库基础语句] <p>create database 库;</p>
+<p>[SQL学习2知识点][数据库基础语句]</p> <p>查看创建好的数据库</p>	[SQL学习2知识点][数据库基础语句] <p>show create database 库</p>
+<p>[SQL学习2知识点][数据库基础语句]</p> <p>选择数据库</p>	[SQL学习2知识点][数据库基础语句] <p>use 库;</p>
+<p>[SQL学习2知识点][数据库基础语句]</p> <p>删除数据库</p>	[SQL学习2知识点][数据库基础语句] <p>drop database 库;</p>
+<p>[SQL学习2知识点]</p> <p>数据类型</p>	[SQL学习2知识点] <p>数值类型</p><p>字符类型</p><p>日期类型</p>
+<p>[SQL学习2知识点][数据类型]</p> <p>数值类型</p>	[SQL学习2知识点][数据类型] <p>整数类型 ------ int(n) ------ n表示位数</p><p>小数类型 ------ double(n,m)  ------ n表示总位数，m表示小数位数</p>
+<p>[SQL学习2知识点][数据类型]</p> <p>字符类型</p>	[SQL学习2知识点][数据类型] <p>固定字符串 ------ char(n) ------ n表示字符数，字符数小于n则右侧使用空格补齐</p><p>可变字符串 ------ varchar(n) ------ n表示最大字符数</p>
+<p>[SQL学习2知识点][数据类型]</p> <p>日期类型</p>	[SQL学习2知识点][数据类型] <p>日期 ------ date ------ 格式为:‘yyyy-mm-dd’</p>
+<p>[SQL学习2知识点]</p> <p>操作表的语句</p>	[SQL学习2知识点] <p>查看数据库中的表</p><p>创建表</p><p>查看表结构</p><p>删除表</p>
+<p>[SQL学习2知识点][操作表的语句]</p> <p>查看数据库中的表</p>	[SQL学习2知识点][操作表的语句] <p>show tables;</p>
+<p>[SQL学习2知识点][操作表的语句]</p> <p>创建表</p>	[SQL学习2知识点][操作表的语句] <p>create table 表 <列 类 约>元组；</p>
+<p>[SQL学习2知识点][操作表的语句]</p> <p>查看表结构</p>	[SQL学习2知识点][操作表的语句] <p>desc 表;</p>
+<p>[SQL学习2知识点][操作表的语句]</p> <p>删除表</p>	[SQL学习2知识点][操作表的语句] <p>drop table 表;</p>
+<p>[SQL学习2知识点]</p> <p>插入语句</p>	[SQL学习2知识点] <p>insert into 表 [列元组] values 值元组;</p>
+<p>[SQL学习2知识点]</p> <p>修改(更新)语句</p>	[SQL学习2知识点] <p>update 表 set <列=新值>元组 where 条件;</p>
+<p>[SQL学习2知识点]</p> <p>删除表中的数据</p>	[SQL学习2知识点] <p>delete from 表 where 条件;</p>
+<p>[SQL学习2知识点]</p> <p>查询全部列数据</p>	[SQL学习2知识点] <p>select <列 [as] 别>元组 from 表 where 条件 limit 初,行数 by 列1 asc/desc,列2 asc/desc;</p>
+<p>[SQL学习2知识点]</p> <p>去掉重复的列值(去重)</p>	[SQL学习2知识点] <p>select distinct 列 from 表;</p>
+<p>[SQL学习2知识点]</p> <p>关系运算符</p>	[SQL学习2知识点] <p>(> < = >= <= <>/!=)</p>
+<p>[SQL学习2知识点]</p> <p>逻辑运算符</p>	[SQL学习2知识点] <p>(and、or、not)</p>
+<p>[SQL学习2知识点]</p> <p>特殊情况</p>	[SQL学习2知识点] <p>is null /is not null /between and/in/like % _</p>
+<p>[SQL学习2知识点]</p> <p>分组查询</p>	[SQL学习2知识点] <p>select <列/聚>元组 from 表 where 条件 group by 列 having 条件 order by 列1/聚 asc/desc,列2/聚 asc/desc;</p>
+<p>[SQL学习2知识点]</p> <p>聚合(分组)函数</p>	[SQL学习2知识点] <p>count  sum  avg  min   max</p>
+<p>[SQL学习2知识点]</p> <p>where和having区别</p>	[SQL学习2知识点] <p>(A)where是对整张表中的数据进行过滤,可以单独使用。</p><p>(B)having是对分组后的数据进行过滤,having不可以单独使用,必须和group by一起使用。</p><p>*说明:where后面的条件不可以写聚合函数*</p>
+<p>[SQL学习2知识点]</p> <p>round(数值,位数)</p>	[SQL学习2知识点] <p>四舍五入函数如果位数>0,正常,如果位数=0,不留小数,如果位数<0,那么小数点前第几位进行四舍五入</p>
+<p>[SQL学习2知识点]</p> <p>truncate(数值,位数)</p>	[SQL学习2知识点] <p> 截取函数如果位数>0,那么小数点后保留几位小数,如果位数=0,不保留小数,如果位数<0,那么舍弃小数点之前第几位</p>
+<p>[SQL学习2知识点]</p> <p>rand(n)</p>	[SQL学习2知识点] <p> 随机函数 随机生成0~1之间的数字,如果n的数值不变,生成相同的随机数</p>
+<p>[SQL学习2知识点]</p> <p>sqrt(n)</p>	[SQL学习2知识点] <p>平方根函数</p>
+<p>[SQL学习2知识点]</p> <p>mod(n,m)</p>	[SQL学习2知识点] <p>余数函数</p>
+<p>[SQL学习2知识点]</p> <p>char_length(字/列)</p>	[SQL学习2知识点] <p>统计字符/列值的个数(长度)</p>
+<p>[SQL学习2知识点]</p> <p>trim(字/列)</p>	[SQL学习2知识点] <p>去掉字符串或者列值2端的空格</p>
+<p>[SQL学习2知识点]</p> <p>substring(被截字或列,位,长度)</p>	[SQL学习2知识点] <p>字符串截取函数</p>
+<p>[SQL学习2知识点]</p> <p>reverse(字/列名)</p>	[SQL学习2知识点] <p>字符串逆序函数</p>
+<p>[SQL学习2知识点]</p> <p>concat<字/列>元组</p>	[SQL学习2知识点] <p>字符串拼接</p>
+<p>[SQL学习2知识点]</p> <p>curdate() </p>	[SQL学习2知识点] <p>获取系统当前日期</p>
+<p>[SQL学习2知识点]</p> <p>curtime()</p>	[SQL学习2知识点] <p>获取系统当前时间</p>
+<p>[SQL学习2知识点]</p> <p>sysdate()/now()</p>	[SQL学习2知识点] <p>获取系统当前日期时间</p>
+<p>[SQL学习2知识点]</p> <p>year(date)</p>	[SQL学习2知识点] <p>获取年份</p>
+<p>[SQL学习2知识点]</p> <p>month(date)</p>	[SQL学习2知识点] <p>获取月份</p>
+<p>[SQL学习2知识点]</p> <p>主键约束</p>	[SQL学习2知识点] <p>primary key --创建(修饰、统一)--修改(alter table 表 add primary key 列元组)--删(alter table 表 drop primary key)</p>
+<p>[SQL学习2知识点]</p> <p>唯一约束</p>	[SQL学习2知识点] <p>unique --创建(修饰)--修改(alter table 表 add unique 列元组--删(alter table 表 drop index 列元组)</p>
+<p>[SQL学习2知识点]</p> <p>默认值约束</p>	[SQL学习2知识点] <p>default --创建(修饰)--修改/删(alter table 表 modify <列 类 [default 默认值]>元组</p>
+<p>[SQL学习2知识点]</p> <p>非空约束</p>	[SQL学习2知识点] <p>not null --创建(修饰)--修改/删(alter table 表 modify <列 类 [not null]>元组</p>
+<p>[SQL学习2知识点]</p> <p>创建视图</p>	[SQL学习2知识点] <p>create view 图 as 查询语句</p>
+<p>[SQL学习2知识点]</p> <p>修改视图</p>	[SQL学习2知识点] <p>alter view 图 as 查询语句</p>
+<p>[SQL学习2知识点]</p> <p>删除视图</p>	[SQL学习2知识点] <p>drop view 视图名称;</p>
+<p>[SQL学习2知识点]</p> <p>通过视图实现插入操作</p>	[SQL学习2知识点] <p>insert into 图 values 值元组;</p>
+<p>[SQL学习2知识点]</p> <p>通过视图实现修改(更新)操作</p>	[SQL学习2知识点] <p>update 图 set <列=值>元组  where 条件;</p>
