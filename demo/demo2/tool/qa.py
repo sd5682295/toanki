@@ -18,16 +18,16 @@ class qa():
         """
         return self.obj
 
-    def get_pre(self, node):
-        """
-        获取上级菜单的颜色
-        :param node: 测试的节点
-        :return: 测试节点的上级菜单颜色，如果没有上级菜单就返回False <str|bool>
-        """
-        data = node.xpath('../../../span');
-        if data:
-            return data.xpath('./@color')
-        return False
+    # def get_pre(self, node):
+    #     """
+    #     获取上级菜单的颜色
+    #     :param node: 测试的节点
+    #     :return: 测试节点的上级菜单颜色，如果没有上级菜单就返回False <str|bool>
+    #     """
+    #     data = node.xpath('../../../span');
+    #     if data:
+    #         return data.xpath('./@color')
+    #     return False
 
     def make_pre(self):
         """
@@ -53,7 +53,7 @@ class qa():
         :return: 将https改成http后的图片地址 <ip>
         """
         if img:
-            return [img[0].replace('https', 'http')][0]
+            return [img.replace('https', 'http')][0]
         return []
 
     #     img[0].replace('https','http')
