@@ -1,0 +1,24 @@
+<p>[postman知识点]</p> <p>结构</p>	[postman知识点] <p>workspace</p><p>collection</p><p>folder</p><p>request</p>
+<p>[postman知识点][结构]</p> <p>workspace</p>	[postman知识点][结构] <p>工作空间，环境和全局变量的作用域，建议每个项目单独创建</p>
+<p>[postman知识点][结构]</p> <p>collection</p>	[postman知识点][结构] <p>根文件夹</p>
+<p>[postman知识点][结构]</p> <p>folder</p>	[postman知识点][结构] <p>次级及再向下的文件夹用于拆分项目的模块</p>
+<p>[postman知识点][结构]</p> <p>request</p>	[postman知识点][结构] <p>实际用例</p>
+<p>[postman知识点]</p> <p>请求方式下拉框</p>	[postman知识点] <p>get\post</p>
+<p>[postman知识点]</p> <p>通用Url</p>	[postman知识点] <p>{{hp}}://{{url}}?apikey={{myapikey}}</p><p>可以将参数直接在url里写,postman可以直接将query params部分自动识别为key_value格式</p>
+<p>[postman知识点]</p> <p>Params</p>	[postman知识点] <p>query Params</p><p>固定参数</p><p>敏感变量</p>
+<p>[postman知识点]</p> <p>BulkEdit</p>	[postman知识点] <p>params部分切换key_value界面格式和文档格式</p>
+<p>[postman知识点]</p> <p>Cookies快捷方式</p>	[postman知识点] <p>上次连接的Cookies被记录用作下次链接，可以在这里编辑，添加或则删除某项</p>
+<p>[postman知识点]</p> <p>Headers</p>	[postman知识点] <p>预设头信息，较通用的信息通过切换设置头信息</p><p>用例独特的头参数可以在这里设置</p><p>随环境变化的头信息</p><p>随参数变化的头信息</p><p>cookies设置</p>
+<p>[postman知识点][Headers]</p> <p>预设头信息，较通用的信息通过切换设置头信息</p>	[postman知识点][Headers] <p>preset</p>
+<p>[postman知识点][Headers]</p> <p>用例独特的头参数可以在这里设置</p>	[postman知识点][Headers] <p>头参数设置</p>
+<p>[postman知识点][Headers]</p> <p>随环境变化的头信息</p>	[postman知识点][Headers] <p>环境变量中设置</p>
+<p>[postman知识点][Headers]</p> <p>随参数变化的头信息</p>	[postman知识点][Headers] <p>通过数据传参</p>
+<p>[postman知识点][Headers]</p> <p>cookies设置</p>	[postman知识点][Headers] <p>cookies通常和别的头参数变化频率不同需要单独管理，可以交由MANAGE COOKIES管理</p>
+<p>[postman知识点]</p> <p>body</p>	[postman知识点] <p>form-data</p><p>x-www-form-urlencoded</p><p>raw</p><p>binary</p>
+<p>[postman知识点][body]</p> <p>form-data</p>	[postman知识点][body] <p>常用的表单输入数传方式，可以通过键值对方式输入</p>
+<p>[postman知识点][body]</p> <p>x-www-form-urlencoded</p>	[postman知识点][body] <p>post的默认格式，转码方式和get相同，只是把数据放入body中可以键值对的方式输入</p>
+<p>[postman知识点][body]</p> <p>raw</p>	[postman知识点][body] <p>任何格式的文件，通常选择JSON或XML</p>
+<p>[postman知识点][body]</p> <p>binary</p>	[postman知识点][body] <p>二进制，可以上传视频、音频、照片等文件</p>
+<p>[postman知识点]</p> <p>Pre-requestScript</p>	[postman知识点] <p>发送前运行的js脚本</p><p>可以和 MANAGE COOKIES联合使用，可以发起一个登录请求获取cookies</p><p>可以设置时间变量，应对和现在时间相关的参数限制Math.round(new date(t).getTime()/1000)</p><p>可以用于处理加密参数</p><p>用于解决需要处理后再传参的数据集</p>
+<p>[postman知识点]</p> <p>tests</p>	[postman知识点] <p>发送后运行的js脚本</p><p>验证脚本，使用js测试语句，pm对象</p>
+<p>[postman知识点]</p> <p>saveas</p>	[postman知识点] <p>用于创建错位置或者先创建后保存位置</p>

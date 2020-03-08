@@ -1,0 +1,56 @@
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.info如何获取request名称</p>	[POSTMAN的 pm对象知识点] <p>pm.info.requestName:String</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.info如何获取iteration序号</p>	[POSTMAN的 pm对象知识点] <p> pm.info.iteration:Number</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.info如何获取iteration总数</p>	[POSTMAN的 pm对象知识点] <p> pm.info.iterationCount</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>本地变量的前3个字母</p>	[POSTMAN的 pm对象知识点] <p>vari</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>本地变量的后续</p>	[POSTMAN的 pm对象知识点] <p>iable</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>本地变量后是否有s</p>	[POSTMAN的 pm对象知识点] <p>是</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>环境变量的前3个字母</p>	[POSTMAN的 pm对象知识点] <p>env</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>环境变量的中间4个字母</p>	[POSTMAN的 pm对象知识点] <p>iron</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>环境变量的后4个字母</p>	[POSTMAN的 pm对象知识点] <p>ment</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>环境变量是否加s</p>	[POSTMAN的 pm对象知识点] <p>否</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>集合变量使用的前缀是什么</p>	[POSTMAN的 pm对象知识点] <p>collection</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>集合变量的后缀是什么</p>	[POSTMAN的 pm对象知识点] <p>本地变量名(Variables)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>全局变量后是否要加s</p>	[POSTMAN的 pm对象知识点] <p>是</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>全局变量前缀是什么</p>	[POSTMAN的 pm对象知识点] <p>glo</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>全局变量后缀是什么</p>	[POSTMAN的 pm对象知识点] <p>bal</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>变量的基础方法</p>	[POSTMAN的 pm对象知识点] <p>get(k),set(k, v),toObject()</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>变量是否有某个k的方法</p>	[POSTMAN的 pm对象知识点] <p>has(k)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>环境变量的独特属性</p>	[POSTMAN的 pm对象知识点] <p>name</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>环境、全局、集合的特有方法</p>	[POSTMAN的 pm对象知识点] <p>unset(k),clear()</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>如何看request的url</p>	[POSTMAN的 pm对象知识点] <p> pm.request.url</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>如何看request的头是否要加s</p>	[POSTMAN的 pm对象知识点] <p>是</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>如何看request的body</p>	[POSTMAN的 pm对象知识点] <p> pm.request.body</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>如何增加headers</p>	[POSTMAN的 pm对象知识点] <p>pm.headers.add(标名)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>如何删除headers</p>	[POSTMAN的 pm对象知识点] <p>pm.headers.remove(标名)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>更新pm.headers用的是什么</p>	[POSTMAN的 pm对象知识点] <p>upsert</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response上有哪几个属性</p>	[POSTMAN的 pm对象知识点] <p>返回码,返回状态，响应时间，返回数据大小</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response返回码代码</p>	[POSTMAN的 pm对象知识点] <p>code</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response返回状态代码</p>	[POSTMAN的 pm对象知识点] <p>status</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response返回时间代码是什么</p>	[POSTMAN的 pm对象知识点] <p>responseTimeresponse</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>返回大小代码是什么</p>	[POSTMAN的 pm对象知识点] <p>responseSize:number</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response方法有哪2个</p>	[POSTMAN的 pm对象知识点] <p>返回文本，返回json</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response返回数据文本的代码</p>	[POSTMAN的 pm对象知识点] <p>text()</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response返回数据json是属性还是方法</p>	[POSTMAN的 pm对象知识点] <p>方法</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>response返回数据json的代码</p>	[POSTMAN的 pm对象知识点] <p>json()</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData基本方法</p>	[POSTMAN的 pm对象知识点] <p>get(k),set(k,v),toObject()</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData是否有toJSON()</p>	[POSTMAN的 pm对象知识点] <p>是</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData变成JSON</p>	[POSTMAN的 pm对象知识点] <p>toJSON()</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData是否存在clear方法</p>	[POSTMAN的 pm对象知识点] <p>是</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData清除数据</p>	[POSTMAN的 pm对象知识点] <p>clear()</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData是否存在unset方法</p>	[POSTMAN的 pm对象知识点] <p>是</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData清除某一项数据</p>	[POSTMAN的 pm对象知识点] <p>unset(k)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData是否存在输入批量数据方法</p>	[POSTMAN的 pm对象知识点] <p>是</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.iterationData输入批量数据</p>	[POSTMAN的 pm对象知识点] <p>addLayer(list: VariableList)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.have判断状态</p>	[POSTMAN的 pm对象知识点] <p>status(code:Number/reason:String)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.have判断头信息是否有某个信息</p>	[POSTMAN的 pm对象知识点] <p>header(k[,v])</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.have判断内容</p>	[POSTMAN的 pm对象知识点] <p>body([v:str/v:re])</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.have判断json内容</p>	[POSTMAN的 pm对象知识点] <p>jsonBody([Object/k[,v]])</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.have通过模板判断</p>	[POSTMAN的 pm对象知识点] <p>jsonSchema(schema:Object)</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(success,ok,accepted)</p>	[POSTMAN的 pm对象知识点] <p>2XX, 200, 202</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(info,redirection)</p>	[POSTMAN的 pm对象知识点] <p> 1XX, 3XX</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(2XX,200,202)</p>	[POSTMAN的 pm对象知识点] <p>success, ok, accepted</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(1XX,3XX)</p>	[POSTMAN的 pm对象知识点] <p>info, redirection</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(clientError,badRequest,unauthorized,forbidden,notFound,rateLimited)</p>	[POSTMAN的 pm对象知识点] <p>4XX, 400, 401, 403, 404, 429</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(serverError,error)</p>	[POSTMAN的 pm对象知识点] <p>5XX, 4XX OR 5XX</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(4XX,400,401,403,404,429)</p>	[POSTMAN的 pm对象知识点] <p>clientError, badRequest, unauthorized, forbidden, notFound, rateLimited</p>
+<p>[POSTMAN的 pm对象知识点]</p> <p>pm.response.to.be(5XX,4XXOR5XX)</p>	[POSTMAN的 pm对象知识点] <p> serverError, error</p>

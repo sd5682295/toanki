@@ -1,0 +1,116 @@
+<p>[Django 如何处理一个请求]pm.info 如何获取request名称 </p>	 pm.info.requestName:String
+
+<p>[Django 如何处理一个请求]pm.info 如何获取iteration 序号 </p>	 pm.info.iteration:Number
+
+<p>[Django 如何处理一个请求]pm.info 如何获取iteration总数 </p>	 pm.info.iterationCount
+
+<p>[Django 如何处理一个请求]本地变量的前3个字母</p>	vari
+
+<p>[Django 如何处理一个请求]本地变量的后续</p>	iable
+
+<p>[Django 如何处理一个请求]本地变量后是否有s</p>	是
+
+<p>[Django 如何处理一个请求]环境变量的前3个字母</p>	env
+
+<p>[Django 如何处理一个请求]环境变量的中间4个字母</p>	iron
+
+<p>[Django 如何处理一个请求]环境变量的后4个字母</p>	ment
+
+<p>[Django 如何处理一个请求]环境变量是否加s</p>	否
+
+<p>[Django 如何处理一个请求]集合变量使用的前缀是什么</p>	collection
+
+<p>[Django 如何处理一个请求]集合变量的后缀是什么</p>	本地变量名(Variables)
+
+<p>[Django 如何处理一个请求]全局变量后是否要加s</p>	是
+
+<p>[Django 如何处理一个请求]全局变量前缀是什么</p>	glo
+
+<p>[Django 如何处理一个请求]全局变量后缀是什么</p>	bal
+
+<p>[Django 如何处理一个请求]变量的基础方法</p>	get(k),set(k, v),toObject()
+
+<p>[Django 如何处理一个请求]变量是否有某个k的方法 </p>	has(k)
+
+<p>[Django 如何处理一个请求]环境变量的独特属性</p>	name
+
+<p>[Django 如何处理一个请求]环境、全局、集合的特有方法</p>	unset(k),clear()
+
+<p>[Django 如何处理一个请求]如何看request的url </p>	 pm.request.url
+
+<p>[Django 如何处理一个请求]如何看request的头是否要加s </p>	 是
+
+<p>[Django 如何处理一个请求]如何看request的body </p>	 pm.request.body
+
+<p>[Django 如何处理一个请求]如何增加headers</p>	pm.headers.add(标名)
+
+<p>[Django 如何处理一个请求]如何删除headers</p>	pm.headers.remove(标名)
+
+<p>[Django 如何处理一个请求]如何更新爱pm.headers后用的是什么</p>	upsert
+
+<p>[Django 如何处理一个请求]response上有哪几个属性 </p>	 返回码,返回状态，响应时间，返回数据大小
+
+<p>[Django 如何处理一个请求]response返回码代码</p>	code
+
+<p>[Django 如何处理一个请求]response返回状态代码</p>	status
+
+<p>[Django 如何处理一个请求]response返回大小代码是什么</p>	responseSize:number
+
+<p>[Django 如何处理一个请求]response方法有哪2个</p>	返回文本，返回json
+
+<p>[Django 如何处理一个请求]response返回数据文本的代码</p>	text()
+
+<p>[Django 如何处理一个请求]response返回数据json是属性还是方法</p>	方法
+
+<p>[Django 如何处理一个请求]response返回数据json的代码</p>	json()
+
+<p>[Django 如何处理一个请求]pm.iterationData基本方法</p>	get(k),set(k,v),toObject()
+
+<p>[Django 如何处理一个请求]pm.iterationData是否有toJSON()</p>	是
+
+<p>[Django 如何处理一个请求]pm.iterationData变成JSON</p>	toJSON()
+
+<p>[Django 如何处理一个请求]pm.iterationData是否存在clear方法</p>	是
+
+<p>[Django 如何处理一个请求]pm.iterationData清除数据</p>	clear()
+
+<p>[Django 如何处理一个请求]pm.iterationData是否存在unset方法</p>	是
+
+<p>[Django 如何处理一个请求]pm.iterationData清除某一项数据</p>	unset(k)
+
+<p>[Django 如何处理一个请求]pm.iterationData是否存在输入批量数据方法</p>	是
+
+<p>[Django 如何处理一个请求]pm.iterationData输入批量数据</p>	addLayer(list: VariableList)
+
+<p>[Django 如何处理一个请求]    setTimeout(() </p>	 {
+
+<p>[Django 如何处理一个请求]pm.test的使用方法</p>	('信息',function(){code})
+
+<p>[Django 如何处理一个请求]    setTimeout(() </p>	 {
+
+<p>[Django 如何处理一个请求]pm.response.to.have判断状态</p>	status(code:Number/reason:String)
+
+<p>[Django 如何处理一个请求]pm.response.to.have判断头信息是否有某个信息</p>	header(k[,v])
+
+<p>[Django 如何处理一个请求]pm.response.to.have判断内容</p>	body([v:str/v:re])
+
+<p>[Django 如何处理一个请求]pm.response.to.have判断json内容</p>	jsonBody([Object/k[,v]])
+
+<p>[Django 如何处理一个请求]pm.response.to.have通过模板判断</p>	jsonSchema(schema:Object)
+
+<p>[Django 如何处理一个请求]pm.response.to.be(success, ok, accepted) </p>	 2XX, 200, 202
+
+<p>[Django 如何处理一个请求]pm.response.to.be(info, redirection) </p>	 1XX, 3XX
+
+<p>[Django 如何处理一个请求]pm.response.to.be(2XX,200,202) </p>	 success, ok, accepted
+
+<p>[Django 如何处理一个请求]pm.response.to.be(1XX, 3XX) </p>	 info, redirection
+
+<p>[Django 如何处理一个请求]pm.response.to.be(clientError, badRequest, unauthorized, forbidden, notFound, rateLimited)</p>	4XX, 400, 401, 403, 404, 429
+
+<p>[Django 如何处理一个请求]pm.response.to.be(serverError, error) </p>	 5XX, 4XX OR 5XX
+
+<p>[Django 如何处理一个请求]pm.response.to.be(4XX, 400, 401, 403, 404, 429)</p>	clientError, badRequest, unauthorized, forbidden, notFound, rateLimited
+
+<p>[Django 如何处理一个请求]pm.response.to.be(5XX, 4XX OR 5XX) </p>	 serverError, error
+

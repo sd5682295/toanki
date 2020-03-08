@@ -7,3 +7,4 @@ if __name__ == "__main__":
     files = dh.get_html_list(type='list')
     [run_html(file).run() for file in files]
 
+
