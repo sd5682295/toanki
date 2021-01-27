@@ -84,10 +84,10 @@ class xpath_tool_base(object):
         pass
 
 
-获取上级菜单
-获取颜色
-判断颜色
-字符串清洗
+# 获取上级菜单
+# 获取颜色
+# 判断颜色
+# 字符串清洗
 
 class xpath_tool(xpath_tool_base):
     def html_handle(self, html_data):

@@ -1,0 +1,116 @@
+<p>[postman api]pm.info 如何获取request名称 </p>	 pm.info.requestName:String
+
+<p>[postman api]pm.info 如何获取iteration 序号 </p>	 pm.info.iteration:Number
+
+<p>[postman api]pm.info 如何获取iteration总数 </p>	 pm.info.iterationCount
+
+<p>[postman api]本地变量的前3个字母</p>	vari
+
+<p>[postman api]本地变量的后续</p>	iable
+
+<p>[postman api]本地变量后是否有s</p>	是
+
+<p>[postman api]环境变量的前3个字母</p>	env
+
+<p>[postman api]环境变量的中间4个字母</p>	iron
+
+<p>[postman api]环境变量的后4个字母</p>	ment
+
+<p>[postman api]环境变量是否加s</p>	否
+
+<p>[postman api]集合变量使用的前缀是什么</p>	collection
+
+<p>[postman api]集合变量的后缀是什么</p>	本地变量名(Variables)
+
+<p>[postman api]全局变量后是否要加s</p>	是
+
+<p>[postman api]全局变量前缀是什么</p>	glo
+
+<p>[postman api]全局变量后缀是什么</p>	bal
+
+<p>[postman api]变量的基础方法</p>	get(k),set(k, v),toObject()
+
+<p>[postman api]变量是否有某个k的方法 </p>	has(k)
+
+<p>[postman api]环境变量的独特属性</p>	name
+
+<p>[postman api]环境、全局、集合的特有方法</p>	unset(k),clear()
+
+<p>[postman api]如何看request的url </p>	 pm.request.url
+
+<p>[postman api]如何看request的头是否要加s </p>	 是
+
+<p>[postman api]如何看request的body </p>	 pm.request.body
+
+<p>[postman api]如何增加headers</p>	pm.headers.add(标名)
+
+<p>[postman api]如何删除headers</p>	pm.headers.remove(标名)
+
+<p>[postman api]如何更新爱pm.headers后用的是什么</p>	upsert
+
+<p>[postman api]response上有哪几个属性 </p>	 返回码,返回状态，响应时间，返回数据大小
+
+<p>[postman api]response返回码代码</p>	code
+
+<p>[postman api]response返回状态代码</p>	status
+
+<p>[postman api]response返回大小代码是什么</p>	responseSize:number
+
+<p>[postman api]response方法有哪2个</p>	返回文本，返回json
+
+<p>[postman api]response返回数据文本的代码</p>	text()
+
+<p>[postman api]response返回数据json是属性还是方法</p>	方法
+
+<p>[postman api]response返回数据json的代码</p>	json()
+
+<p>[postman api]pm.iterationData基本方法</p>	get(k),set(k,v),toObject()
+
+<p>[postman api]pm.iterationData是否有toJSON()</p>	是
+
+<p>[postman api]pm.iterationData变成JSON</p>	toJSON()
+
+<p>[postman api]pm.iterationData是否存在clear方法</p>	是
+
+<p>[postman api]pm.iterationData清除数据</p>	clear()
+
+<p>[postman api]pm.iterationData是否存在unset方法</p>	是
+
+<p>[postman api]pm.iterationData清除某一项数据</p>	unset(k)
+
+<p>[postman api]pm.iterationData是否存在输入批量数据方法</p>	是
+
+<p>[postman api]pm.iterationData输入批量数据</p>	addLayer(list: VariableList)
+
+<p>[postman api]    setTimeout(() </p>	 {
+
+<p>[postman api]pm.test的使用方法</p>	('信息',function(){code})
+
+<p>[postman api]    setTimeout(() </p>	 {
+
+<p>[postman api]pm.response.to.have判断状态</p>	status(code:Number/reason:String)
+
+<p>[postman api]pm.response.to.have判断头信息是否有某个信息</p>	header(k[,v])
+
+<p>[postman api]pm.response.to.have判断内容</p>	body([v:str/v:re])
+
+<p>[postman api]pm.response.to.have判断json内容</p>	jsonBody([Object/k[,v]])
+
+<p>[postman api]pm.response.to.have通过模板判断</p>	jsonSchema(schema:Object)
+
+<p>[postman api]pm.response.to.be(success, ok, accepted) </p>	 2XX, 200, 202
+
+<p>[postman api]pm.response.to.be(info, redirection) </p>	 1XX, 3XX
+
+<p>[postman api]pm.response.to.be(2XX,200,202) </p>	 success, ok, accepted
+
+<p>[postman api]pm.response.to.be(1XX, 3XX) </p>	 info, redirection
+
+<p>[postman api]pm.response.to.be(clientError, badRequest, unauthorized, forbidden, notFound, rateLimited)</p>	4XX, 400, 401, 403, 404, 429
+
+<p>[postman api]pm.response.to.be(serverError, error) </p>	 5XX, 4XX OR 5XX
+
+<p>[postman api]pm.response.to.be(4XX, 400, 401, 403, 404, 429)</p>	clientError, badRequest, unauthorized, forbidden, notFound, rateLimited
+
+<p>[postman api]pm.response.to.be(5XX, 4XX OR 5XX) </p>	 serverError, error
+

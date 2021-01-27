@@ -1,0 +1,12 @@
+<p>[rest framework 权限知识点]</p> <p>继承的类</p>	[rest framework 权限知识点] <p>BasePermission</p>
+<p>[rest framework 权限知识点]</p> <p>需要重写的方法</p>	[rest framework 权限知识点] <p>has_permission （返回值）</p>
+<p>[rest framework 权限知识点][需要重写的方法]</p> <p>has_permission（返回值）</p>	[rest framework 权限知识点][需要重写的方法] <p>True （代表）</p><p>False （代表）</p>
+<p>[rest framework 权限知识点][需要重写的方法/has_permission （返回值）]</p> <p>True（代表）</p>	[rest framework 权限知识点][需要重写的方法/has_permission （返回值）] <p>有访问权</p>
+<p>[rest framework 权限知识点][需要重写的方法/has_permission （返回值）]</p> <p>False（代表）</p>	[rest framework 权限知识点][需要重写的方法/has_permission （返回值）] <p>无访问权</p>
+<p>[rest framework 权限知识点]</p> <p>无访问权限提醒文字是什么</p>	[rest framework 权限知识点] <p>massage 该变量是类的什么</p>
+<p>[rest framework 权限知识点][无访问权限提醒文字是什么]</p> <p>massage该变量是类的什么</p>	[rest framework 权限知识点][无访问权限提醒文字是什么] <p>属性</p>
+<p>[rest framework 权限知识点]</p> <p>全局写在哪里</p>	[rest framework 权限知识点] <p>REST_FRAMEWORK变量中</p>
+<p>[rest framework 权限知识点][全局写在哪里]</p> <p>REST_FRAMEWORK变量中</p>	[rest framework 权限知识点][全局写在哪里] <p>变量赋值的字典的KEY是什么</p>
+<p>[rest framework 权限知识点][全局写在哪里/REST_FRAMEWORK变量中]</p> <p>变量赋值的字典的KEY是什么</p>	[rest framework 权限知识点][全局写在哪里/REST_FRAMEWORK变量中] <p>"DEFAULT_PERMISSION_CLASSES"</p>
+<p>[rest framework 权限知识点]</p> <p>局部变量写在哪里</p>	[rest framework 权限知识点] <p>permission_classes属性中 （赋值格式）</p>
+<p>[rest framework 权限知识点][局部变量写在哪里]</p> <p>permission_classes属性中（赋值格式）</p>	[rest framework 权限知识点][局部变量写在哪里] <p>列表</p>

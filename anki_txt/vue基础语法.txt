@@ -1,0 +1,35 @@
+<p>[vue基础语法知识点]</p> <p>{{}}的作用</p>	[vue基础语法知识点] <p>打印字面量或者变量，可以写运算符用于计算数值或拼接字符串</p>
+<p>[vue基础语法知识点]</p> <p>v-html</p>	[vue基础语法知识点] <p>将字面量或变量当html字符拼接在内部</p>
+<p>[vue基础语法知识点]</p> <p>v-text</p>	[vue基础语法知识点] <p>打印字面量或者变量</p>
+<p>[vue基础语法知识点]</p> <p>v-pre</p>	[vue基础语法知识点] <p>打印符号本身</p>
+<p>[vue基础语法知识点]</p> <p>v-once</p>	[vue基础语法知识点] <p>显示值,不可通过更改数据进行更改</p>
+<p>[vue基础语法知识点]</p> <p>v-cloak</p>	[vue基础语法知识点] <p>空白代替延迟期间的内容</p>
+<p>[vue基础语法知识点]</p> <p>v-bind</p>	[vue基础语法知识点] <p>绑定属性</p>
+<p>[vue基础语法知识点]</p> <p>computed</p>	[vue基础语法知识点] <p>调用方法处理数据赋值给某个属性</p>
+<p>[vue基础语法知识点]</p> <p>v-filter</p>	[vue基础语法知识点] <p>过滤器，数据|方法  的方法</p>
+<p>[vue基础语法知识点]</p> <p>data响应的方法</p>	[vue基础语法知识点] <p>splice</p><p>unshift</p><p>push</p><p>pop</p><p>shift</p><p>sort</p><p>reverse</p>
+<p>[vue基础语法知识点][data响应的方法]</p> <p>splice</p>	[vue基础语法知识点][data响应的方法] <p>splice(位置，删除数量，替换字符)</p>
+<p>[vue基础语法知识点][data响应的方法]</p> <p>unshift</p>	[vue基础语法知识点][data响应的方法] <p>最前面添加字符</p>
+<p>[vue基础语法知识点][data响应的方法]</p> <p>push</p>	[vue基础语法知识点][data响应的方法] <p>最后面添加数据</p>
+<p>[vue基础语法知识点][data响应的方法]</p> <p>pop</p>	[vue基础语法知识点][data响应的方法] <p>删除最后一个数据</p>
+<p>[vue基础语法知识点][data响应的方法]</p> <p>shift</p>	[vue基础语法知识点][data响应的方法] <p>删除第一个数据</p>
+<p>[vue基础语法知识点][data响应的方法]</p> <p>sort</p>	[vue基础语法知识点][data响应的方法] <p>顺序排列</p>
+<p>[vue基础语法知识点][data响应的方法]</p> <p>reverse</p>	[vue基础语法知识点][data响应的方法] <p>倒序排列</p>
+<p>[vue基础语法知识点]</p> <p>v-for（能遍历什么？）</p>	[vue基础语法知识点] <p>遍历数组</p><p>遍历对象</p>
+<p>[vue基础语法知识点][v-for（能遍历什么？）]</p> <p>遍历对象</p>	[vue基础语法知识点][v-for（能遍历什么？）] <p>(val,key,index) in items</p>
+<p>[vue基础语法知识点]</p> <p>v-for（特性是什么？）</p>	[vue基础语法知识点] <p>将index或item绑定给属性key可以帮助重用增加效率</p>
+<p>[vue基础语法知识点]</p> <p>v-on（功能是什么）</p>	[vue基础语法知识点] <p>触发事件调用方法</p>
+<p>[vue基础语法知识点]</p> <p>v-on（特性是什么）</p>	[vue基础语法知识点] <p>没有括号默认获取event参数</p><p>可以获取event参数和其他参数（方法）</p><p>通过修饰符限制触发默认或者自定义的事件（修饰符的特性）</p>
+<p>[vue基础语法知识点][v-on（特性是什么）]</p> <p>可以获取event参数和其他参数（方法）</p>	[vue基础语法知识点][v-on（特性是什么）] <p>(参数,$event)</p>
+<p>[vue基础语法知识点][v-on（特性是什么）]</p> <p>通过修饰符限制触发默认或者自定义的事件（修饰符的特性）</p>	[vue基础语法知识点][v-on（特性是什么）] <p>所有的行为都可以串联</p>
+<p>[vue基础语法知识点]</p> <p>v-on有哪些修饰符</p>	[vue基础语法知识点] <p>.stop</p><p>.prevent</p><p>.{keyCode | keyAlias}</p><p>.native</p><p>.once</p>
+<p>[vue基础语法知识点][v-on有哪些修饰符]</p> <p>.stop</p>	[vue基础语法知识点][v-on有哪些修饰符] <p>调用 event.stopPropagation()。</p><p>分离内外圈</p>
+<p>[vue基础语法知识点][v-on有哪些修饰符]</p> <p>.prevent</p>	[vue基础语法知识点][v-on有哪些修饰符] <p>调用 event.preventDefault()。</p><p>阻止默认事件，只允许函数内的事件</p>
+<p>[vue基础语法知识点][v-on有哪些修饰符]</p> <p>.{keyCode|keyAlias}</p>	[vue基础语法知识点][v-on有哪些修饰符] <p>只当事件是从特定键触发时才触发回调。</p><p>对按键做出反应</p>
+<p>[vue基础语法知识点][v-on有哪些修饰符]</p> <p>.native</p>	[vue基础语法知识点][v-on有哪些修饰符] <p>监听组件根元素的原生事件。</p><p>组件中用到，组件名作的模板点击触发使用</p>
+<p>[vue基础语法知识点][v-on有哪些修饰符]</p> <p>.once</p>	[vue基础语法知识点][v-on有哪些修饰符] <p>只触发一次回调。</p>
+<p>[vue基础语法知识点]</p> <p>v-model</p>	[vue基础语法知识点] <p>双向绑定数据</p><p>input type="text"</p><p>input type="radio"</p><p><input type="checkbox"<"radio">><select></p><p>select</p>
+<p>[vue基础语法知识点]</p> <p>v-model修饰符有哪些</p>	[vue基础语法知识点] <p>lazy修饰符：</p><p>number修饰符：</p><p>trim修饰符：</p>
+<p>[vue基础语法知识点][v-model修饰符有哪些]</p> <p>lazy修饰符：</p>	[vue基础语法知识点][v-model修饰符有哪些] <p>可以让数据在失去焦点或者回车时才会更新</p>
+<p>[vue基础语法知识点][v-model修饰符有哪些]</p> <p>number修饰符：</p>	[vue基础语法知识点][v-model修饰符有哪些] <p>可以让在输入框中输入的内容自动转成数字类型：</p>
+<p>[vue基础语法知识点][v-model修饰符有哪些]</p> <p>trim修饰符：</p>	[vue基础语法知识点][v-model修饰符有哪些] <p>可以过滤内容左右两边的空格</p>

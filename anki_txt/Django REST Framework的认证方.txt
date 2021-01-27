@@ -1,0 +1,19 @@
+<p>[Django REST Framework的认证方知识点]</p> <p>认证类如果需要节省authenticate_header,需要继承的类</p>	[Django REST Framework的认证方知识点] <p>BaseAuthentication</p>
+<p>[Django REST Framework的认证方知识点]</p> <p>认证类主要需要重写的方法是</p>	[Django REST Framework的认证方知识点] <p>authenticate()方法</p>
+<p>[Django REST Framework的认证方知识点]</p> <p>authenticate()方法需要有三种情况返回</p>	[Django REST Framework的认证方知识点] <p>元祖</p><p>出现异常</p><p>返回空</p>
+<p>[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回]</p> <p>元祖</p>	[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回] <p>return (obj.user,obj)</p>
+<p>[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回]</p> <p>出现异常</p>	[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回] <p>raise exceptions.AuthenticationFailed('用户认证失败')</p>
+<p>[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回]</p> <p>返回空</p>	[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回] <p>none</p>
+<p>[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回/返回空]</p> <p>none</p>	[Django REST Framework的认证方知识点][authenticate()方法需要有三种情况返回/返回空] <p>request.user为默认值AnonymousUser  (可以设置)</p>
+<p>[Django REST Framework的认证方知识点]</p> <p>全局认证(在哪里写)</p>	[Django REST Framework的认证方知识点] <p>setting里写（赋值的变量名）</p>
+<p>[Django REST Framework的认证方知识点][全局认证(在哪里写)]</p> <p>setting里写（赋值的变量名）</p>	[Django REST Framework的认证方知识点][全局认证(在哪里写)] <p>REST_FRAMEWORK （赋值的格式）</p>
+<p>[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）]</p> <p>REST_FRAMEWORK（赋值的格式）</p>	[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）] <p>字典（key是什么）</p>
+<p>[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）]</p> <p>字典（key是什么）</p>	[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）] <p>"DEFAULT_AUTHENTICATION_CLASS"（value格式是什么）</p>
+<p>[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）/字典（key是什么）]</p> <p>"DEFAULT_AUTHENTICATION_CLASS"（value格式是什么）</p>	[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）/字典（key是什么）] <p>列表（value内容是什么）</p>
+<p>[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）/字典（key是什么）/"DEFAULT_AUTHENTICATION_CLASS"（value格式是什么）]</p> <p>列表（value内容是什么）</p>	[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）/字典（key是什么）/"DEFAULT_AUTHENTICATION_CLASS"（value格式是什么）] <p>认证类名 （列表为空时代表什么）</p>
+<p>[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）/字典（key是什么）/"DEFAULT_AUTHENTICATION_CLASS"（value格式是什么）/列表（value内容是什么）]</p> <p>认证类名（列表为空时代表什么）</p>	[Django REST Framework的认证方知识点][全局认证(在哪里写)/setting里写（赋值的变量名）/REST_FRAMEWORK （赋值的格式）/字典（key是什么）/"DEFAULT_AUTHENTICATION_CLASS"（value格式是什么）/列表（value内容是什么）] <p>表示不认证</p>
+<p>[Django REST Framework的认证方知识点]</p> <p>局部认证在哪里写</p>	[Django REST Framework的认证方知识点] <p>在类中写（变量名）</p>
+<p>[Django REST Framework的认证方知识点][局部认证在哪里写]</p> <p>在类中写（变量名）</p>	[Django REST Framework的认证方知识点][局部认证在哪里写] <p>authentication_class （赋值格式）</p>
+<p>[Django REST Framework的认证方知识点][局部认证在哪里写/在类中写（变量名）]</p> <p>authentication_class（赋值格式）</p>	[Django REST Framework的认证方知识点][局部认证在哪里写/在类中写（变量名）] <p>列表（内容是什么）</p>
+<p>[Django REST Framework的认证方知识点][局部认证在哪里写/在类中写（变量名）/authentication_class （赋值格式）]</p> <p>列表（内容是什么）</p>	[Django REST Framework的认证方知识点][局部认证在哪里写/在类中写（变量名）/authentication_class （赋值格式）] <p>认证类名:string  （列表为空时代表什么）</p>
+<p>[Django REST Framework的认证方知识点][局部认证在哪里写/在类中写（变量名）/authentication_class （赋值格式）/列表（内容是什么）]</p> <p>认证类名:string（列表为空时代表什么）</p>	[Django REST Framework的认证方知识点][局部认证在哪里写/在类中写（变量名）/authentication_class （赋值格式）/列表（内容是什么）] <p>表示不认证</p>

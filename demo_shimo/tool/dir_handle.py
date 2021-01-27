@@ -4,7 +4,7 @@ from demo2.tool.tool_base.dir_handle_base import dir_tool
 class dir_handle(dir_tool):
     def __init__(self):
         self.path_dir = ['md', 'anki_txt']
-        self.html_root = '../md/'
+        self.html_root = './md/'
         self.file_typle = 'md'
 
     def get_file_typle(self):

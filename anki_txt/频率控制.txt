@@ -1,0 +1,15 @@
+<p>[频率控制知识点]</p> <p>重写算法（使用什么数据）</p>	[频率控制知识点] <p>VISIT_RECORD（继承那个类）</p>
+<p>[频率控制知识点][重写算法 （使用什么数据）]</p> <p>VISIT_RECORD（继承那个类）</p>	[频率控制知识点][重写算法 （使用什么数据）] <p>BaseThrottle （实现哪些方法）</p>
+<p>[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）]</p> <p>BaseThrottle（实现哪些方法）</p>	[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）] <p>allow_request  </p><p>wait(作用)</p>
+<p>[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）/BaseThrottle （实现哪些方法）]</p> <p>allow_request</p>	[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）/BaseThrottle （实现哪些方法）] <p>(需要初始化什么数据)</p><p>(有哪些返回值)</p><p>（思路）</p>
+<p>[频率控制知识点]</p> <p>self.history（用途）</p>	[频率控制知识点] <p>获取从VISIT_RECORD中获取的数据，KEY 是IP(如何获取ip)</p>
+<p>[频率控制知识点][self.history （用途）]</p> <p>获取从VISIT_RECORD中获取的数据，KEY是IP(如何获取ip)</p>	[频率控制知识点][self.history （用途）] <p>request.META.get('REMOTE_ADDR')</p>
+<p>[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）/BaseThrottle （实现哪些方法）]</p> <p>wait(作用)</p>	[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）/BaseThrottle （实现哪些方法）] <p>返回还剩多少时间（思路）</p>
+<p>[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）/BaseThrottle （实现哪些方法）/wait(作用)]</p> <p>返回还剩多少时间（思路）</p>	[频率控制知识点][重写算法 （使用什么数据）/VISIT_RECORD（继承那个类）/BaseThrottle （实现哪些方法）/wait(作用)] <p>限制时间-（现在的时间-记录的最后时间）</p>
+<p>[频率控制知识点]</p> <p>内置控制的方法（继承什么类）</p>	[频率控制知识点] <p>SimpleRateThrottle （实现什么方法和属性）</p>
+<p>[频率控制知识点][内置控制的方法（继承什么类）]</p> <p>SimpleRateThrottle（实现什么方法和属性）</p>	[频率控制知识点][内置控制的方法（继承什么类）] <p>get_cache_key返回什么</p><p>scope 属性赋值的内容是什么</p>
+<p>[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）]</p> <p>get_cache_key返回什么</p>	[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）] <p>返回检测频率的检测点 -- ip或账号</p>
+<p>[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）]</p> <p>scope属性赋值的内容是什么</p>	[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）] <p>  字符串  setting中设置的KEY(在哪个KEY中设置)</p>
+<p>[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）/scope 属性赋值的内容是什么]</p> <p>字符串setting中设置的KEY(在哪个KEY中设置)</p>	[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）/scope 属性赋值的内容是什么] <p>  "DEFAULT_THROTTLE_RATES"（设置的数据结构是什么）</p>
+<p>[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）/scope 属性赋值的内容是什么/  字符串  setting中设置的KEY(在哪个KEY中设置)]</p> <p>"DEFAULT_THROTTLE_RATES"（设置的数据结构是什么）</p>	[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）/scope 属性赋值的内容是什么/  字符串  setting中设置的KEY(在哪个KEY中设置)] <p>字典，（VALUE是什么）</p>
+<p>[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）/scope 属性赋值的内容是什么/  字符串  setting中设置的KEY(在哪个KEY中设置)/  "DEFAULT_THROTTLE_RATES"（设置的数据结构是什么）]</p> <p>字典，（VALUE是什么）</p>	[频率控制知识点][内置控制的方法（继承什么类）/SimpleRateThrottle （实现什么方法和属性）/scope 属性赋值的内容是什么/  字符串  setting中设置的KEY(在哪个KEY中设置)/  "DEFAULT_THROTTLE_RATES"（设置的数据结构是什么）] <p>次数/时间</p>
