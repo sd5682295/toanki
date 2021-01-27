@@ -13,7 +13,7 @@
 
 
 
-![图片](https://uploader.shimo.im/f/GUDdIShehwENTpzj.png!thumbnail)![图片](https://uploader.shimo.im/f/R9DdWxAOecMwf5y3.png!thumbnail)
+![图片](https://uploader.shimo.im/f/R9DdWxAOecMwf5y3.png!thumbnail)
 
 # # 使用方法：
 
